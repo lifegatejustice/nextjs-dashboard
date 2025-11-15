@@ -7,4 +7,6 @@
 - [x] Run pnpm install to update lockfile
 - [x] Remove deprecated @types/bcryptjs (bcryptjs has built-in types)
 - [x] Create types.d.ts for bcryptjs TypeScript declarations
+- [x] Add export const dynamic = 'force-dynamic' to create/page.tsx
+- [x] Update all database connections to use DATABASE_URL || POSTGRES_URL
 - [ ] Test build locally to ensure no errors
